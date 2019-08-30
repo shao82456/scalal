@@ -4,7 +4,7 @@ object List1 extends  App{
 
   val list:List[Nothing]=List()
 
-  val list1:List[Any]="sf"::1::list
+  val list1:List[Any]="sf"::1::Nil
 
   val name::_=list1
 
